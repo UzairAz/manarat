@@ -78,11 +78,11 @@
                     <div class="col-5 text-center"><span t-field="doc.partner_id.building_no"></span></div>
                     <div class="col-4 text-right"><Strong>رقم المبني</Strong></div>
                 </div>-->
-                <!--<div class="row">
+                <div class="row">
                     <div class="col-3"><Strong>Street</Strong></div>
                     <div class="col-5 text-center"><span t-field="doc.partner_id.street"></span></div>
                     <div class="col-4 text-right"><Strong>اسم الشارع</Strong></div>
-                </div>-->
+                </div>
                <!--<div class="row">
                     <div class="col-3"><Strong>District</Strong></div>
                     <div class="col-5 text-center"><span t-field="doc.partner_id.district"></span></div>
@@ -138,7 +138,7 @@
             <table class="table table-sm o_main_table " name="invoice_line_ids_table">
                 <thead class="bg-light text-center">
                     <tr>
-                        <td class="text-left"><div class="mw-100">Name</div><div class="mw-100 ">
+                        <td class="text-left"><div class="mw-100">Description</div><div class="mw-100 ">
                             الوصف</div></td>
                         <td><div class="mw-100">Price Unit</div><div class="mw-100 "> سعر الوحدة</div></td>
                         <td><div class="mw-100">Quantity</div><div class="mw-100 "> الكمية</div></td>
