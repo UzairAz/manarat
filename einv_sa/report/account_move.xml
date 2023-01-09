@@ -36,7 +36,7 @@
                     <div class="row">
                         <div class="col-4"><Strong>Due Date of Payment</Strong></div>
                         <div class="col-4 text-center"><span t-field="doc.invoice_payment_term_id"></span></div>
-                        <div class="col-4 text-right"><Strong>تاريخ التوريد</Strong></div>
+                        <div class="col-4 text-right"><Strong>تاريخ استحقاق الدفع</Strong></div>
                     </div>
                      <div class="row">
                         <div class="col-4"><Strong>Starting Date</Strong></div>
