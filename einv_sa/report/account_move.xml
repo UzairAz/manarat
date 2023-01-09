@@ -36,7 +36,7 @@
                     <div class="row">
                         <div class="col-4"><Strong>Due Date of Payment</Strong></div>
                         <div class="col-4 text-center"><span t-field="doc.invoice_payment_term_id"></span></div>
-                        <div class="col-4 text-right"><Strong>تاريخ استحقاق الدفع</Strong></div>
+                        <div class="col-4 text-right"><Strong>تاريخ التوريد</Strong></div>
                     </div>
                      <div class="row">
                         <div class="col-4"><Strong>Starting Date</Strong></div>
@@ -192,7 +192,7 @@
                         <div class="row border border-top-0">
                             <div class="col-4">Total (Excluding VAT)</div>
                             <div class="col-6 text-right">الاجمالي غير شامل ضريبة القيمة المضافة</div>
-                            <div class="col-2 text-center"><span t-field="doc.einv_amount_sale_total"></span></div>
+                            <div class="col-2 text-left"><span t-field="doc.einv_amount_sale_total"></span></div>
                         </div>
                         <!--<div class="row border border-top-0">
                             <div class="col-4">Discount</div>
@@ -209,12 +209,12 @@
                         <div class="row border border-top-0">
                             <div class="col-4">Total VAT</div>
                             <div class="col-6 text-right">إجمالي الضريبة المضافة</div>
-                            <div class="col-2 text-center"><span t-field="doc.amount_tax_signed"></span></div>
+                            <div class="col-2 text-left"><span t-field="doc.amount_tax_signed"></span></div>
                         </div>
                         <div class="row border border-top-0">
                             <div class="col-4">Total Amount Due</div>
                             <div class="col-6 text-right"> الإجمالي المستحق </div>
-                            <div class="col-2 text-center"><span t-field="doc.amount_total"></span></div>
+                            <div class="col-2 text-left"><span t-field="doc.amount_total"></span></div>
                         </div>
                     </div>
 
