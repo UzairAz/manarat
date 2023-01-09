@@ -192,7 +192,7 @@
                         <div class="row border border-top-0">
                             <div class="col-4">Total (Excluding VAT)</div>
                             <div class="col-6 text-right">الاجمالي غير شامل ضريبة القيمة المضافة</div>
-                            <div class="col-2 text-left"><span t-field="doc.einv_amount_sale_total"></span></div>
+                            <div class="col-3 text-left"><span t-field="doc.einv_amount_sale_total"></span></div>
                         </div>
                         <!--<div class="row border border-top-0">
                             <div class="col-4">Discount</div>
